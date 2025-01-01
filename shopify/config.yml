@@ -1,0 +1,13 @@
+# TCG Repricer Shopify App Configuration
+app_name: TCG Repricer
+version: 1.0.0
+scopes:
+  - read_products
+  - write_products
+  - read_inventory
+  - write_inventory
+settings:
+  - label: API Key
+    name: tcg_repricer_api_key
+    type: text
+    required: true

@@ -1,0 +1,1 @@
+export const POKEMON_TCG_API_KEY = 'ed59118e-01ec-4c47-a3ef-40712988cf14';

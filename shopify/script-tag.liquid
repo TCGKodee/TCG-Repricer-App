@@ -1,0 +1,8 @@
+<!-- TCG Repricer Shopify Integration -->
+<script>
+  window.TCG_REPRICER_CONFIG = {
+    shop: "{{ shop.permanent_domain }}",
+    apiKey: "{{ settings.tcg_repricer_api_key }}"
+  };
+</script>
+<script src="{{ 'tcg-repricer.js' | asset_url }}" defer></script>
